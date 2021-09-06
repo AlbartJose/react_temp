@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Button from './Button';
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,21 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
         </a>
+
+        <br />
+        <a
+          className="App-link"
+          href="https://learn.masaischool.com/app/dashboard"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button />
+
+        </a>
+
+
       </header>
     </div>
   );
