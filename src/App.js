@@ -1,37 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './Button';
+import { ListItem } from "./components/ListItem";
 function App() {
+  // const myAge = 25;
+  // const myName = "Albart";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+      {/* <ListItem age="1" name={myName} />
+      <div>Age: {myAge}</div> */}
+      <ListItem />
 
-        </a>
-
-        <br />
-        <a
-          className="App-link"
-          href="https://learn.masaischool.com/app/dashboard"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button />
-
-        </a>
-
-
-      </header>
     </div>
   );
 }
